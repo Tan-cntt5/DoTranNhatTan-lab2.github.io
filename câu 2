@@ -10,7 +10,6 @@ public class PhuongTrinhBacHai {
         b = sc.nextDouble();
         System.out.print("Nhap he so c: ");
         c = sc.nextDouble();
-
         if (a == 0) {
             System.out.println("Day la phuong trinh bac nhat");
             if (b == 0) {
@@ -23,7 +22,8 @@ public class PhuongTrinhBacHai {
                 double x = -c / b;
                 System.out.println("Phuong trinh co nghiem x = " + x);
             }
-        } else {
+        } 
+        else {
             double delta = b * b - 4 * a * c;
             if (delta < 0) {
                 System.out.println("Phuong trinh vo nghiem");
